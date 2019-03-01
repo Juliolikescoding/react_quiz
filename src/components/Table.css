@@ -1,0 +1,45 @@
+.mesa {
+	width: 100%;
+	border: 3px solid black;
+	border-radius: 10px
+}
+
+.mesa th {
+	background-color: #c1c1c1;
+	border-radius: 10px;
+}
+
+.mesa td {
+	border: 1px solid grey;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+td:nth-child(1) {
+	white-space: nowrap;
+	color: blue;	
+}
+
+td:nth-child(3) {
+	white-space: nowrap;
+	color: red;	
+}
+
+
+td:nth-child(2):hover {
+	background-color: grey;
+	border: 1px sold rgb(39, 39, 39);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color:white;
+}
+
+img{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+	margin-right: 5px; 
+/*	display: flex;
+	justify-content: flex-start;
+	align-items: center;*/
+}
